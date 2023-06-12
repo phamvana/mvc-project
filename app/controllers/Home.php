@@ -6,7 +6,14 @@ class Home extends Controller{
         echo $teo->GetStudent();
         //echo "Home Conntroller, function SayHi()";
     }
-    function Show(){
-        $this->view("aodep");
+    function Show($a, $b){
+        $teo = $this->model("StudentModel");
+        $tong = $teo->Tong($a,$b);
+        $this->view("aodep",
+        ["number"=>$tong, 
+        "color" => "red",
+        "page" =>"news"
+        ]
+);
     }
 }
