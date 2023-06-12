@@ -5,6 +5,6 @@ class Controller{
         return new $model;
     }
     public function view($view){
-
+        require_once "./app/views/".$view.".php";
     }
 }
