@@ -12,7 +12,8 @@ class Home extends Controller{
         $this->view("aodep",
         ["number"=>$tong, 
         "color" => "red",
-        "page" =>"news"
+        "page" =>"news",
+        "St"=>$teo->Student()
         ]
 );
     }
