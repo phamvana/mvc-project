@@ -1,9 +1,6 @@
 <?php
 class App{
-    /**
-     * Undocumented variable
-     *
-     * @var string
+    /*
      * Tạo 3 biến protected lưu các giá trị
      * controller --> Mặc định có giá trị Home
      * action --> Mặc định có giá trị SayHi
