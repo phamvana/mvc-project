@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-lg-3 p-b-50">
-        <h4 class="cl0 p-b-30">
+        <h4 class="text-uppercase cl0 p-b-30">
            Danh mục
         </h4>
 
@@ -35,7 +35,7 @@
       </div>
 
       <div class="col-sm-6 col-lg-3 p-b-50">
-        <h4 class="stext-301 cl0 p-b-30">
+        <h4 class=" text-uppercase stext-301 cl0 p-b-30">
           Trợ giúp
         </h4>
 
@@ -67,7 +67,7 @@
       </div>
 
       <div class="col-sm-6 col-lg-3 p-b-50">
-        <h4 class="stext-301 cl0 p-b-30">
+        <h4 class="text-uppercase stext-301 cl0 p-b-30">
           LIÊN HỆ
         </h4>
 
@@ -91,7 +91,7 @@
       </div>
 
       <div class="col-sm-6 col-lg-3 p-b-50">
-        <h4 class="stext-301 cl0 p-b-30">
+        <h4 class="text-uppercase stext-301 cl0 p-b-30">
          tin mới nhất
         </h4>
 
@@ -111,7 +111,7 @@
     </div>
 
     <div class="p-t-40">
-      <p class="stext-107 cl6 txt-center">
+      <p class=" text-center stext-107 cl6 txt-center">
 
         Copyright &copy;<script>
           document.write(new Date().getFullYear());

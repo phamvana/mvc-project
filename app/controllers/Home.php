@@ -5,8 +5,13 @@ class Home extends Controller
     function SayHi()
     {
         $teo = $this->model("StudentModel");
-        echo $teo->GetStudent();
-        //echo "Home Conntroller, function SayHi()";
+        $this->view(
+            "app",
+            [
+                "page" => "news",
+                "St" => $teo->Student()
+            ]
+        );
     }
 
     //show()
