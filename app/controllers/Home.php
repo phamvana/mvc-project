@@ -8,8 +8,10 @@ class Home extends Controller
         $this->view(
             "app",
             [
-                "page" => "news",
-                "St" => $teo->Student()
+                "title"=>"Trang chủ",
+                "page" => "main",
+                "St" => $teo->Student(),
+                "function"=>"SayHi"
             ]
         );
     }
@@ -22,6 +24,7 @@ class Home extends Controller
         $this->view(
             "aodep",
             [
+                "title"=>"Trang show",
                 "color" => "red",
                 "page" => "news",
                 "St" => $teo->Student()

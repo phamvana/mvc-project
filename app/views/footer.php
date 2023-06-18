@@ -4,31 +4,31 @@
     <div class="row">
       <div class="col-sm-6 col-lg-3 p-b-50">
         <h4 class="text-uppercase cl0 p-b-30">
-           Danh mục
+          Danh mục
         </h4>
 
         <ul>
           <li class="p-b-10">
             <a href="#" class="hov-cl1 trans-04">
-              Hình thẻ
+              Model
             </a>
           </li>
 
           <li class="p-b-10">
             <a href="#" class=" cl7 hov-cl1 trans-04">
-              Phục chế ảnh
+              View
             </a>
           </li>
 
           <li class="p-b-10">
             <a href="#" class=" cl7 hov-cl1 trans-04">
-              Sự kiện
+              Controll
             </a>
           </li>
 
           <li class="p-b-10">
             <a href="#" class=" cl7 hov-cl1 trans-04">
-              Khung ảnh
+              Database
             </a>
           </li>
         </ul>
@@ -42,13 +42,13 @@
         <ul>
           <li class="p-b-10">
             <a href="#" class=" cl7 hov-cl1 trans-04">
-              Theo dõi đơn hàng
+              Hiểu về MVC hoạt động như thế nào?
             </a>
           </li>
 
           <li class="p-b-10">
             <a href="#" class=" cl7 hov-cl1 trans-04">
-              Chính sách đổi trả hàng
+              Chức năng chính
             </a>
           </li>
 
@@ -72,7 +72,7 @@
         </h4>
 
         <p class=" cl7 size-201">
-          Bạn cần liên hệ?<br /> Phạm Văn Á <br/> Call me / Zalo <br/>(+84) 09188 10 2 84
+          Bạn cần liên hệ?<br /> Phạm Văn Á <br /> Call me / Zalo <br />(+84) 09188 10 2 84
         </p>
 
         <div class="p-t-27">
@@ -92,7 +92,7 @@
 
       <div class="col-sm-6 col-lg-3 p-b-50">
         <h4 class="text-uppercase stext-301 cl0 p-b-30">
-         tin mới nhất
+          tin mới nhất
         </h4>
 
         <form>
@@ -122,11 +122,3 @@
     </div>
   </div>
 </footer>
-<!-- Back to top -->
-<div class="btn-back-to-top" id="myBtn">
-  <span class="symbol-btn-back-to-top">
-    <i class="zmdi zmdi-chevron-up"></i>
-  </span>
-</div>
-
-
