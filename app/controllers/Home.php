@@ -2,6 +2,7 @@
 
 class Home extends Controller
 {
+    public $title = "Trang chủ";
     function SayHi()
     {
         $teo = $this->model("StudentModel");
@@ -11,7 +12,7 @@ class Home extends Controller
                 "title"=>"Trang chủ",
                 "page" => "main",
                 "St" => $teo->Student(),
-                "function"=>"SayHi"
+                "functionn"=>"SayHi"
             ]
         );
     }
@@ -22,12 +23,13 @@ class Home extends Controller
         $teo = $this->model("StudentModel");
         
         $this->view(
-            "aodep",
+            "app",
             [
                 "title"=>"Trang show",
                 "color" => "red",
                 "page" => "news",
-                "St" => $teo->Student()
+                "St" => $teo->Student(),
+                "function"=>"Show"
             ]
         );
     }
